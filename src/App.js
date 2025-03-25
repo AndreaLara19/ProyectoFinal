@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import './App.css'; // Si estás usando un archivo de estilos
+import Titulo from './titulo'; // Importa el componente Titulo
 
 function App() {
   return (
@@ -22,5 +25,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
