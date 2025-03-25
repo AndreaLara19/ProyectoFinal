@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function App() {
+function Input() {
   // Estado para almacenar el valor del input
   const [inputValue, setInputValue] = useState('');
 
@@ -23,4 +23,4 @@ function App() {
   );
 }
 
-export default App;
+export default Input;
